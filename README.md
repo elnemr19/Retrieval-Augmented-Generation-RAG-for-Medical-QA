@@ -131,3 +131,5 @@ embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-Mi
 faiss_db = FAISS.load_local("faiss_medquad_index", embeddings=embedding_model, allow_dangerous_deserialization=True)
 ```
 
+
+## You can check my code on Kaggle: [Code](https://www.kaggle.com/code/abdullahalnemr/rag-phi-3)
